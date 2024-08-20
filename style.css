@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container {
+  margin: auto;
+  width: 1920px;
+  height: auto;
+}
+.nav__wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 30px;
+  padding: 12px 16px;
+}
+.nav__list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 16px;
+}
+.nav__list__iteam {
+  text-decoration: none;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: bold;
+  padding: 4px;
+  cursor: pointer;
+}
+.nav__list__iteam > a {
+  font-weight: 700;
+  list-style: none;
+  text-decoration: none;
+}
+.nav__list__iteam-sign {
+  padding: 4px 6px;
+  border-radius: 12px 0 12px 0;
+  background: #caa892;
+}
+.nav__list__iteam-sign > a {
+  font-weight: 700;
+  list-style: none;
+  text-decoration: none;
+}
+.modern__wrapper {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.modern__page {
+  margin: auto;
+}
+.modern__page__text {
+  font-size: 20px;
+  font-weight: 700;
+}
+.modern__page__title {
+  font-size: 72px;
+  font-weight: 600px;
+  margin: 18px 0;
+  text-align: left;
+}
+.modern__page__smoll-text {
+  font-weight: 600px;
+  font-size: 18px;
+  padding-right: 12px;
+  padding-bottom: 24px;
+}
+.modern__page__btn {
+  display: block;
+  padding: 6px 10px;
+  margin: 46px 0;
+  font-weight: 700;
+  border: 0;
+  border-radius: 12px 0 12px 0;
+  background: #37806b;
+  color: #fff;
+  cursor: pointer;
+}
+.modern__foto {
+  margin-top: 100px;
+}
+.service-info {
+  width: 70%;
+  display: block;
+  margin: auto;
+  align-items: center;
+  padding: 170px 0 40px 0;
+}
+.service__card__text {
+  margin: 18px 0 0 0;
+  margin-top: 20px;
+}
+.service__card__detail {
+  width: 33%;
+  margin: 0 18px;
+  box-shadow: inset 0 -3em 3em rgba(93, 91, 91, 0.034),
+    0 0 0 2px rgba(240, 228, 228, 0.316),
+    0.3em 0.3em 1em rgba(228, 205, 114, 0.092);
+    border: 0px;
+    border-radius: 36px 0 36px 0;
+}
+.service__card {
+  width: 70%;
+  height: 193px;
+  display: flex;
+  margin: auto;
+  
+}
+.service__card__detail__info {
+font-weight: 700;
+font-size: 24px;
+padding: 18px;
+
+}
+.service__card__detail__text {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.568);
+    padding: 18px;
+}
+.about-us__wrapper {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+  
+  .about-us__page {
+    margin: auto;
+    margin-top: 100px;
+  }
+  .about-us__page__text {
+    font-size: 20px;
+    font-weight: 700;
+    margin:  60px;
+  }
+  .about-us__page__title {
+    font-size: 48px;
+    font-weight: 600px;
+    margin: 18px 60px;
+    text-align: left;
+  }
+  .about-us__page__smoll-text {
+    font-weight: 600px;
+    font-size: 18px;
+    margin:  60px;
+    padding-bottom: 12px;
+  }
+  .about-us__page__btn {
+    display: block;
+    padding: 6px 10px;
+    margin: 0px 42px ;
+    font-weight: 700;
+    border: 0;
+    border-radius: 12px 0 12px 0;
+    background: #37806b;
+    color: #fff;
+    cursor: pointer;
+  }
+  .about-us__foto {
+    margin-top: 100px;
+  }
+  .years__wrapper {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+  
+  .years__page {
+    margin: auto;
+    margin-top: 100px;
+  }
+  .years__page__text {
+    font-size: 190px;
+    font-weight: 700;
+    margin:  60px;
+  }
+  .years__page__smoll-text {
+    font-weight: 600px;
+    font-size: 36px;
+    margin:  60px;
+    padding-bottom: 12px;
+  }
+  .years__page__btn {
+    display: block;
+    padding: 6px 10px;
+    margin: 0px 70px ;
+    font-weight: 700;
+    border: 0;
+    border-radius: 12px 0 12px 0;
+    background: #37806b;
+    color: #fff;
+    cursor: pointer;
+  }
+  .years__foto > img {
+    margin-top: 100px;
+    border: 0px;
+    border-radius: 0 140px 0 140px;
+    padding-bottom: 25px;
+  }
